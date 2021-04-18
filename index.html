@@ -1,0 +1,74 @@
+<!-- Vytvořte webovou stránku, ve které použijete značky na přiklad pro nadpis, odstavec a další.
+
+Na stránce bude obrázek 
+linka na hlavní web page Czechitas.
+Každý nadpis bude mít jinou barvu.
+Obsahem stránky bude popis:
+
+k čemu je jsou dobré DevTools, a jak nám dokáží pomoci při zjišťování problémů s webovou aplikaci.
+Ve druhé sekci bude popsán návod, jak získat zdrojový kód html stánky pomocí nástroje Postman.
+A na závěr krátké pojednání o tom, jaký je rozdíl mezi XML a JSON a proč se který formát používá.
+Odevzdat můžete pomoci linku na Replit nebo celou stranku nahrajte na GIT a pošlete odkaz.
+
+Hezké velikonoce.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Terčina webovka</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <h1 style="color:blue">Opakování z lekcí Browser</h1>
+      <p>Chceš vědět víc, podívej se na <a href="https://czechitas.cz/cs/" style="color: deeppink;">Czechitas</a> a přihlaš se na kurz!</p>
+
+      <img src="https://cdn.someecards.com/someecards/usercards/MjAxMy02MzkwNWJiNjE4MTA1Y2U2_525304c56ec69.png"></img>
+    
+
+
+      <h2 style="color:darkslateblue;">DevTools </h2>
+      <p> Díky DevTools mohu zjistit lépe, proč něco na webové stránce nefunguje
+        <ul>
+          <li> v záložce <b>Elements</b> si mohu zobrazit DOM strukturu stránky, případně CSS styly  </li>
+          <li> v záložce <b>Network</b> vidím http metody, které byly zavolány a jejich statusy  </li>
+          <li> v záložce <b>Application</b> se můžu podívat např. na Cookies, nebo Cache  </li>
+        </ul>
+       
+      </p>
+
+      <h2 style="color:darkmagenta;">Postman</h2>
+      <h3>Jak získat zdrojový kód HTML stránky </h3>
+      <p>
+        <ul> 
+        <li>otevřu Postmana  </li>
+        <li>otevřu novou záložku  </li>
+        <li>nastavím http metodu GET </li>
+        <li>do řádku vedle napíšu URL adresu stránky </li>
+        <li>kliknu na tlačítko Send  </li>
+      </ul>
+      </p>
+
+      <h2 style="color:darkred;">XML vs. JSON </h2>
+      <p>Oba formáty jsou určeny pro přenos dat a jsou nezávislé na počítačové platfomě</p>
+      <h3>XML = Extensible Markup Language</h3>
+      <p>
+        <ul>
+          <li>musí mít právě jeden kořenový element (root) </li>
+          <li>elementy musí mít startovací a ukončovací značku</li>
+          <li>stromova struktura, tj. každý elememnt může obsahovat další elementz</li>
+        </ul>
+      </p>
+
+      <h3>JSON = JavaScript Object Notation</h3>
+      <p>
+        <ul>
+          <li>mají strukturu <i> klíč: hodnota </i>  </li>
+          <li>nelze pro nej udelat validacni strukturu (narozdil od XML) </li>
+        </ul>
+       </p>
+
+    
+  </body>
+</html>
